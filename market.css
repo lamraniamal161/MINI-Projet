@@ -1,48 +1,131 @@
-.nav {
+.nav1 {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
-    height: 80px;
-    width: auto;
-    gap: 90px;
-    border-radius: 0px 0px 20px 20px;
-    background-color: rgb(188, 117, 17);
+    height: auto;
+    gap: 20px;
+    box-shadow: 0 4px 2px -2px gray; 
+    background-color: rgb(248, 210, 158);
+    
+    margin: 0;
+    padding: 0; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(0);
 }
+
+.nav2 {
+    align-items: center;
+    height: auto;
+    gap: 200px;
+    box-shadow: 0 4px 2px -2px gray; 
+    background-color: rgb(248, 210, 158);
+    justify-content: flex-end; 
+    display: flex;
+    margin-top: 10px; 
+    padding: 10px 0; 
+    position: fixed;
+    width: 100%;
+    top: 70px; 
+    border-top: 1px solid rgb(136, 147, 136);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    outline: none;
+    border: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.logostyle {
+    font-family: 'Bradley Hand ITC', cursive;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 20px;
+}
+
 .nav-button {
-    outline: 0;
-    border:0;
-    width: 60px;
+    outline: none;
+    border: none;
+    width: 70px;
     height: 60px;
     border-radius: 50%;
     background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #000000;
-    transition: all ease-in-out 0.5s;
+    color: #000;
+    transition: transform 0.5s ease-in-out, color 0.5s ease-in-out, background-color 0.5s ease-in-out;
     cursor: pointer;
+    font-size: 24px;
 }
+
 .nav-button:hover {
     transform: translateY(-10px);
-    color :rgb(253, 246, 237);
+    color: rgb(253, 246, 237);
     background-color: #010000;
 }
-.logo {
-  outline: 0;
-  border: 0; 
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
+.header {
+    background-image: url('aaa.jpg');
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    margin-top: 100px; 
+    padding: 0;
 }
-.logostyle{
+
+.logostyle2 {
     font-family: 'Bradley Hand ITC', cursive;
     font-weight: bold;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: rgb(252, 249, 249);
+    height: 500px;
+    font-size: 80px;
+    margin: 0;
+    animation: color-change 5s infinite;
 }
-.header{
-    background-image: url(images\ \(1\).jpeg);
+
+@keyframes color-change {
+    0% {
+        color: rgb(252, 249, 249); 
+    }
+    25% {
+        color: rgb(0, 0, 0); 
+    }
+    50% {
+        color: rgb(249, 209, 152); 
+    }
+    
+}
+
+
+.nav2 a{
+    font-family: 'Agency FB', cursive;
+    font-weight: bold ;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
