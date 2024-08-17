@@ -16,6 +16,4 @@ if ($conn->connect_error) {
     $conn->close(); 
 }
 Header("Location: message.html");
-?>
-
-
+?>;

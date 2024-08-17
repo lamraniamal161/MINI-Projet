@@ -1,0 +1,82 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        width: 100%;
+        height: auto;
+        background-image: url(aaa.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+    
+    h1 {
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        margin-top: 1em;
+        text-shadow: 2px 2px 2px rgb(246, 174, 7);
+        color: #000;
+    }
+    
+    .box {
+        width: 300px;
+        height: 400px;
+        background-color: transparent;
+        backdrop-filter: blur(100px);
+        margin-left: 20em;
+        margin-top: 2em;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    
+    label {
+        font-size: 20px;
+    }
+    
+    input {
+        width: 250px;
+        margin-left: 10px;
+        padding: 4px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #SEx {
+        display: flex;
+    }
+    
+    #SEx input {
+        width: 12px;
+    }
+    
+    .form-group select {
+        width: 250px;
+        margin-left: 10px;
+        padding: 4px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    button {
+        width: 150px;
+        padding: 5px;
+        margin-left: 4em;
+        color: #fff;
+        background-color: rgb(246, 174, 7);
+        margin-bottom: 10px;
+        border-radius: 20px;
+    }
+    /* button {
+    width: 100px;
+    padding: 9px;
+    margin: 5px;
+    /* background-color: rgb(247, 246, 250); */
+    /* border-radius: 15px;
+
+}
+ a {
+    color: black
+} */
