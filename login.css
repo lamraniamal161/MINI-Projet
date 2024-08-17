@@ -3,18 +3,21 @@
     text-align: center;
     padding: 100px;
 }
+
 .box {
-    background: rgb(249, 209, 152); 
+    background: rgb(249, 209, 152);
     padding: 50px;
     border-radius: 15px;
     display: inline-block;
 }
+
 input {
     width: 200px;
     padding: 10px;
     margin: 5px;
     border-radius: 15px;
 }
+
 button {
     width: 100px;
     padding: 9px;
@@ -22,10 +25,11 @@ button {
     /* background-color: rgb(247, 246, 250); */
     border-radius: 15px;
 }
+
 a {
-    color:black
+    color: black;
 }
 
-html{
+html {
     background-image: url(aaa.jpg);
 }
